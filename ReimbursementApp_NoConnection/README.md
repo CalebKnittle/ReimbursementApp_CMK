@@ -1,11 +1,8 @@
 # Silver Ridge Farms Inc. - Tuition Reimbursement Management System (TRMS)
-### Author: Caleb Knittle###
+### Author: Caleb Knittle
 
 ## Explanation/Overview:
-	The purpose of this application is to provide a streamlined workflow management system for employees of Silver Ridge Farms Inc to apply for and receive financial aid towards continuing education. An employee begins the process by submitting a reimbursment request form that includes the details of an event they would like to attend and for which they would like to be reimbursed. A justification for why the event is relevant to their work within the company should also be included.
-	The form then follows a chain of approvals. First, the employee's supervisor must approve the reimbursement request, followed by the department head of the employee's
-department. Then, company's Benefits Coordinator must approve the request, at which point the employee may submit a final grade for the event. If the grade is in the format of a presentation, their supervisor must approve the grade, and if it is in the form of a standard letter grade (A-F) on a 100-point scale, the Benefits Coordinator must approve the grade. Once the grade is approved, the company awards the employee the appropriate amount based on the cost of the event.
-	Also of note, an approver may request more information from the employee or any previous approver in the chain regarding the event. Additionally, an employee is limited to receiving up to $1000 USD in total reimbursements within the span of one calendar year (twelve months), although the Benefits Coordinator may allow reimbursements totaling greater than this amount if deemed appropriate.
+The purpose of this application is to provide a streamlined workflow management system for employees of Silver Ridge Farms Inc to apply for and receive financial aid towards continuing education. An employee begins the process by submitting a reimbursment request form that includes the details of an event they would like to attend and for which they would like to be reimbursed. A justification for why the event is relevant to their work within the company should also be included. The form then follows a chain of approvals until it is finally approved or denied.
 
 ## Package Structure:
 * Entities
@@ -38,9 +35,14 @@ department. Then, company's Benefits Coordinator must approve the request, at wh
 ## Setup: 
 1. Git clone the project from the repository using: git clone <repository url>
 2. Run the project on a server at the localhost. 
-3. Then in a browser, navigate to: http://localhost:8080/ReimbursementApp/
+3. Then in a browser, navigate to: http://localhost:8080/ReimbursementApp_CMK/
+
+## Usage:
+Once an employee submits an initial reimbursement request, the employee's supervisor must first approve the request, followed by the department head of the employee's department. Then, the company's Benefits Coordinator must approve the request, at which point the employee may submit a final grade for the event. If the grade is in the format of a presentation, their supervisor must approve the grade, and if it is in the form of a standard letter grade (A-F) on a 100-point scale, the Benefits Coordinator must approve the grade. Once the grade is approved, the company awards the employee the appropriate amount based on the cost of the event.
+Also of note, an approver may request more information from the employee or any previous approver in the chain regarding the event. Additionally, an employee is limited to receiving up to $1000 USD in total reimbursements within the span of one calendar year (twelve months), although the Benefits Coordinator may allow reimbursements totaling greater than this amount if deemed appropriate.
+
 
 Contributors: Caleb Knittle
 
-Licensing: n/a
+Licensing: Standard Free Eclipse License
 
